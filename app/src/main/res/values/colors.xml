@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+
+
+    <!--#f00            //低精度 - 不带透明通道红色-->
+    <!--#af00           //低精度 - 带透明通道红色-->
+
+    <!--#ff0000         //高精度 - 不带透明通道红色-->
+    <!--#aaff0000       //高精度 - 带透明通道红色-->
+    <color name="red_down">#f00</color>
+    <color name="red_down_a">#af00</color>
+    <color name="red_up">#FF0000</color>
+    <color name="red_up_a">#AAFF0000</color>
+</resources>
