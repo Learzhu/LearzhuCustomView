@@ -131,22 +131,22 @@ public class CanvasView extends View {
      */
     public void drawArcRight(Canvas canvas) {
         RectF rectF = new RectF(100, 100, 600, 600);
-// 绘制背景矩形
+        // 绘制背景矩形
         mPaint.setColor(Color.GRAY);
         canvas.drawRect(rectF, mPaint);
 
-// 绘制圆弧
+        // 绘制圆弧
         mPaint.setColor(Color.BLUE);
         canvas.drawArc(rectF, 0, 90, false, mPaint);
 
-//-------------------------------------
+        //-------------------------------------
 
         RectF rectF2 = new RectF(100, 700, 600, 1200);
-// 绘制背景矩形
+        // 绘制背景矩形
         mPaint.setColor(Color.GRAY);
         canvas.drawRect(rectF2, mPaint);
 
-// 绘制圆弧
+        // 绘制圆弧
         mPaint.setColor(Color.BLUE);
         canvas.drawArc(rectF2, 0, 90, true, mPaint);
     }
