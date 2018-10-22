@@ -3,6 +3,7 @@ package com.learzhu.learzhucustomview
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.learzhu.learzhucustomview.bean.PieData
+import com.learzhu.learzhucustomview.views.CanvasDynamicView
 import com.learzhu.learzhucustomview.views.PieView
 
 class MainActivity : AppCompatActivity() {
@@ -11,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val color = resources.getColor(R.color.red)
-        drawPieView()
+//        drawPieView()
+        drawDynamicView()
     }
 
     /**
@@ -34,5 +36,9 @@ class MainActivity : AppCompatActivity() {
         //        pieView.setData(listOf<PieData>(pieDataA, pieDataB, pieDataC, pieDataD))
         pieView.setData(pieDatas)
         pieView.invalidate()
+    }
+
+    private fun drawDynamicView() {
+        val dynamicView = findViewById<CanvasDynamicView>(R.id.canvas_dynamic_view)
     }
 }

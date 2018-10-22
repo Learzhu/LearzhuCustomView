@@ -22,7 +22,7 @@
     <!--android:text="test"-->
     <!--android:textColor="@color/red"/>-->
 
-    <!--<com.learzhu.learzhucustomview.views.SloopView-->
+    <!--<com.learzhu.learzhucustomview.views.SloopView-->translate
     <!--android:layout_width="wrap_content"-->
     <!--android:layout_height="wrap_content"/>-->
 
@@ -38,6 +38,12 @@
 
     <com.learzhu.learzhucustomview.views.PieView
         android:id="@+id/pieview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.learzhu.learzhucustomview.views.CanvasDynamicView
+        android:id="@+id/canvas_dynamic_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </android.support.constraint.ConstraintLayout>
