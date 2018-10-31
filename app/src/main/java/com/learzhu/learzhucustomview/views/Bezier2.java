@@ -11,7 +11,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * Bezier2.java是液总汇的类。
+ * Bezier2.java是自定义控件项目的二阶贝塞尔图形的类。
  *
  * @author Learzhu
  * @version 2.0.0 2018-10-30 16:05

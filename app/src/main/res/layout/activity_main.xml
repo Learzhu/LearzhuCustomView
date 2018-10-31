@@ -69,5 +69,11 @@
     <com.learzhu.learzhucustomview.views.LoveView
         android:id="@+id/path_love_view"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.learzhu.learzhucustomview.views.PathComplexView
+        android:id="@+id/path_complex_view"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </android.support.constraint.ConstraintLayout>

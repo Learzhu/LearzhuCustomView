@@ -16,10 +16,11 @@ class MainActivity : AppCompatActivity() {
 //        drawPieView()
 //        drawDynamicView()
 //        drawPathView()
-        drawPathBezierView()
-        drawPathBezier2View()
-        drawPathLoveView()
-        startActivity1()
+//        drawPathBezierView()
+//        drawPathBezier2View()
+//        drawPathLoveView()
+//        startActivity1()
+
     }
 
     private fun startActivity1() {
