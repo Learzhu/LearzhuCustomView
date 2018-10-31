@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".bezierviewpager.BezierViewPagerActivity"/>
+        <activity android:name=".bezierviewpager.BezierViewPagerActivity1"/>
     </application>
 
 </manifest>

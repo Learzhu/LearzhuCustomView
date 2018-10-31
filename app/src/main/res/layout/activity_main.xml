@@ -45,5 +45,29 @@
     <com.learzhu.learzhucustomview.views.CanvasDynamicView
         android:id="@+id/canvas_dynamic_view"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.learzhu.learzhucustomview.views.PathView
+        android:id="@+id/path_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.learzhu.learzhucustomview.views.PathBezierView
+        android:id="@+id/path_bezier_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.learzhu.learzhucustomview.views.Bezier2
+        android:id="@+id/path_bezier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.learzhu.learzhucustomview.views.LoveView
+        android:id="@+id/path_love_view"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </android.support.constraint.ConstraintLayout>
